@@ -21,7 +21,7 @@ jobs:
           - "3.2.1"
     services:
       postgres:
-        image: postgres:14.5-alpine
+        image: postgres:14.19-alpine
         ports:
           - 5434:5432
         env:
